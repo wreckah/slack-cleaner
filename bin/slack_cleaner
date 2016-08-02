@@ -1,0 +1,3 @@
+#!/usr/bin/env python
+import slack_cleaner
+slack_cleaner.main()

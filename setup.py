@@ -8,7 +8,7 @@ setup(
     author='Alexander Pokatilov',
     author_email='wreckah@ya.ru',
     url='https://github.com/wreckah/slack-cleaner',
-    py_modules=['slack_cleaner'],
+    packages=['slack_cleaner'],
     install_requires=['requests'],
     license='MIT License',
     zip_safe=False,
