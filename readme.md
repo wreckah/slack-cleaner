@@ -8,7 +8,7 @@ I haven't implemented this tool as service, so you should obtain Oauth access
 tokens for Slack API manually :(
 
 1. Create an app here: https://api.slack.com/apps/new
-2. You can use http://requestb.in/ as `Redirect URI` for your app. It allows to save all codes from your users.
+2. You can use http://requestb.in/ to create `Redirect URI` for your app. It helps you to collect all codes from your users.
 3. Get `client_id` and `client_secret` from your new app.
 4. Ask your Slack users to visit URL:
   `https://slack.com/oauth/authorize?client_id=<client_id>&scope=files%3Aread+files%3Awrite%3Auser+groups%3Aread+channels%3Aread+users%3Aread&redirect_uri=<requestb_url>&team=<team>` and grant the access.
