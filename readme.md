@@ -1,6 +1,6 @@
 # Clean up old files from your team's Slack account
 
-The free team account in Slack allows to store 5GB only. When it's exceeded,
+Free team account in Slack allows to store 5GB only. When it's exceeded,
 Slack starts to show warnings asking you to remove large files.
 This tool allows to make a backup and delete files older than X days.
 
@@ -24,4 +24,4 @@ slack_cleaner <access_token> -d<days> -s<backup_dir>
 ```
 
 If you want to delete files for ex-users, you can add `admin` to token's
-requested scopes for your admin user and use this token.
+requested scopes (to URL from 4th item) for your admin user and use this token.
