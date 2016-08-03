@@ -2,9 +2,9 @@
 
 The free team account in Slack allows to store 5GB only. When it's exceeded,
 Slack starts to show warnings asking you to remove large files.
-This tool allow to make a backup and delete files older than X days.
+This tool allows to make a backup and delete files older than X days.
 
-I haven't implemented this tool as service, so you should obtain Oauth access
+Unfortunately I haven't implemented this tool as service, so you should obtain OAuth access
 tokens for Slack API manually :(
 
 1. Create an app here: https://api.slack.com/apps/new
